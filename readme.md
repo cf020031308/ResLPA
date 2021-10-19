@@ -9,6 +9,8 @@ In experiments on five real-world graphs, ResLPA matches SotA LPA-based methods,
 
 ![experiments](experiments.png)
 
+[My presentation of ResLPA on conference ICCAI2021](https://youtu.be/Bs0Jxc4Q64I)
+
 ## Reproducibility
 
 Install dependencies [torch](https://pytorch.org/) and [DGL](https://github.com/dmlc/dgl):
@@ -37,4 +39,21 @@ python3 main.py cs coauthor-cs true
 ## Citation
 
 ```bibtex
+@inproceedings{DBLP:conf/iccai/LuoHCZ21,
+  author    = {Yi Luo and
+               Rui Huang and
+               Aiguo Chen and
+               Xi Zeng},
+  title     = {ResLPA: Label Propagation With Residual Learning},
+  booktitle = {{ICCAI} '21: 2021 7th International Conference on Computing and Artificial
+               Intelligence, Tianjin China, April 23 - 26, 2021},
+  pages     = {296--301},
+  publisher = {{ACM}},
+  year      = {2021},
+  url       = {https://doi.org/10.1145/3467707.3467752},
+  doi       = {10.1145/3467707.3467752},
+  timestamp = {Tue, 28 Sep 2021 15:58:51 +0200},
+  biburl    = {https://dblp.org/rec/conf/iccai/LuoHCZ21.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
 ```
